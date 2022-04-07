@@ -1,0 +1,164 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "string",
+						"name": "_shopId",
+						"type": "string"
+					},
+					{
+						"indexed": true,
+						"internalType": "string",
+						"name": "_customerId",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "Purchase",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_shopId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_customerId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_purchaseHistory",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_paymentType",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_shopRating",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_spendingScore",
+						"type": "uint256"
+					}
+				],
+				"name": "addPurchase",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "purchases",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "shopId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "customerId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "purchaseHistory",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "paymentType",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "shopRating",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "spendingScore",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SIOT/SmartMall.sol": "SmartMall"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SIOT/SmartMall.sol": {
+			"keccak256": "0xbaf74dc098de4c6787df8fc9c539237daad217b6ba0e8ea6ee15175791566984",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f75a03525e7142916e682e8e060ea453c34a9d06c2e0f99dc5df6c42a228466a",
+				"dweb:/ipfs/QmUnQogkvy1ecVsmb6UVGS1CZawPW17y2XofWQsj8aWNtj"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,181 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "string",
+						"name": "_vehicleNo",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "parked",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "string",
+						"name": "_vehicleNo",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "unparked",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_vehicleNo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_slotId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_timestamp",
+						"type": "string"
+					}
+				],
+				"name": "enterParkingLot",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_vehicleNo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_slotId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_timestamp",
+						"type": "string"
+					}
+				],
+				"name": "exitParkingLot",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "parkingLot",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "vehicleNo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "slotId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "timestamp",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "typeOfEntry",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SIOT/SmartApartment.sol": "SmartApartment"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SIOT/SmartApartment.sol": {
+			"keccak256": "0x4cc28a8fb066d21e1bc77593914103e77578ed40f54301650b015c859dbc62a1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15cb40b8714c4a1d748c4d3b4a8e85b4c3836ac97cfbb6f87834193da1c30675",
+				"dweb:/ipfs/Qmf5vcyBJ8Updo8qB1ydWcuV4XrcVfmymYDQcPY9wmN7cr"
+			]
+		}
+	},
+	"version": 1
+}

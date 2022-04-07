@@ -1,0 +1,293 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "deviceType",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_deviceMapper",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lat",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_long",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "publicKey",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "privateKey",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_domainLocator",
+						"type": "string"
+					}
+				],
+				"name": "addDevice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "deviceId",
+						"type": "uint256"
+					}
+				],
+				"name": "dnsLookup",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "domainServer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "domains",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "domainLocator",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lat",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "long",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "networkId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "category",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "exists",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "deviceId",
+						"type": "uint256"
+					}
+				],
+				"name": "getKeyPair",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "deviceId",
+						"type": "uint256"
+					}
+				],
+				"name": "getOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "nameServer",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_domainLocator",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lat",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_long",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_networkId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_category",
+						"type": "string"
+					}
+				],
+				"name": "registerDomain",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SIOT/DNSKeyManager.sol": "DNSKeyManager"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SIOT/DNSKeyManager.sol": {
+			"keccak256": "0xc2cc9425e9eaa3f4ca08068e754963777d89bf513aea7f866f4cae172256a911",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b2ea1e691625cd0f6c557164f34215d267d82d1dedde0a77efc9a7d3c40bba36",
+				"dweb:/ipfs/QmTC6pYDoFjf2KS9KPgnSYyuLzugPkEvSuF8s4fEDq8chF"
+			]
+		}
+	},
+	"version": 1
+}

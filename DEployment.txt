@@ -1,0 +1,36 @@
+Deployed To Kovan Testnet :
+
+ - DNSKeyManager 
+
+Contract Address : 0x5d2baae89554903d061590a101252b488fbdd16b
+
+Contract URL : https://kovan.etherscan.io/address/0x5d2baae89554903d061590a101252b488fbdd16b
+
+Transaction URL : https://kovan.etherscan.io/tx/0x80856d69eb3f3cbda6b78ea7d80cbaf388bbe8c1b618772c142eec664c4c8400
+
+
+- Smart Apartment
+
+Contract Address : 0xd83a67900f85429449d25d9a9f55777ed46e22bc
+
+Contract URL : https://kovan.etherscan.io/address/0xd83a67900f85429449d25d9a9f55777ed46e22bc
+
+Transaction URL : https://kovan.etherscan.io/tx/0xda8c18c028d6c4f559eaaa44bcccaf10cf7d9971dec276bab0b9ffab38dfd03b
+
+
+- Smart Mall
+
+Contract Address : 0x189fb30a1eb765f8e250804e54262b4626f59ced
+
+Contract URL : https://kovan.etherscan.io/address/0x189fb30a1eb765f8e250804e54262b4626f59ced
+
+Transaction URL : https://kovan.etherscan.io/tx/0xe36cf0fe0e99d9438950e96f73265ab6e920d9b3f3a7210247d2cca642386ec5
+
+
+- Smart Vehicle
+
+Contract Address : 0x80e26b7a161b020e870f243cfa830e35fb7ff17c
+
+Contract URL : https://kovan.etherscan.io/address/0x80e26b7a161b020e870f243cfa830e35fb7ff17c
+
+Transaction URL : https://kovan.etherscan.io/tx/0x286f7c74aa6e1640885ef8d5c089233e2932746a36255231ec44e83480a8f91c
